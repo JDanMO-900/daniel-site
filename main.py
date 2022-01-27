@@ -10,8 +10,7 @@ from flask_login import UserMixin, login_user, LoginManager,  current_user, logo
 from forms import LoginForm, RegisterForm, CreatePostForm, CommentForm
 from flask_gravatar import Gravatar
 import os
-from sqlalchemy import create_engine
-import psycopg2
+
 
 
 app = Flask(__name__)

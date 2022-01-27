@@ -27,7 +27,7 @@ db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 DATABASE_URL = os.environ.get('DATABASE_URL')
-con = psycopg2.connect(DATABASE_URL)
+
 
 
 
